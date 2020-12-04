@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../colors.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Exercise-3</title>
+</head>
+<body>
+    <main class="main centered">
+        <nav class="nav centered">
+            nav
+        </nav>
+        <div class="content">
+            <header class="header">
+                <h1 class="title">Destructuring Object</h1>
+                <div class="icon"></div>
+            </header>
+            <section class="section">
+                <div>Having the following object:
+                    <code>
+                        const PERSON = {
+                            firstName: "Juan",
+                            lastName: "Perez",
+                            city: "Lima",
+                            age: 20,
+                            country: "Peru",
+                            school: "New Institute Innova",
+                            family: {
+                                father: "Anthony",
+                                mother: "Alice",
+                                sister: "Ivone",
+                              },
+                          };
+                    </code>
+                </div>
+                <h2 id="text-exercise-1">1. Destructuring the object to display only the firstName and lastname <button id="btn-try-1" onclick="onClickTextEjercise1();">Try it!</button></h2>
+                <div id="content-exercise-1" class="content-sample">
+
+                </div>
+                <h2 id="text-exercise-2">2. Using Destructuring Aliases, display only city and country (aliases: ciudad, pais). <button id="btn-try-2" onclick="onClickTextEjercise2();">Try it!</button></h2>
+                <div id="content-exercise-2" class="content-sample">
+
+                </div>
+                <h2 id="text-exercise-3">3. Using Nested object destructuring, display only father and mother. <button id="btn-try-3" onclick="onClickTextEjercise3();">Try it!</button></h2>
+                <div id="content-exercise-3" class="content-sample">
+
+                </div>
+            </section>
+            <footer class="footer centered">Footer</footer>
+        </div>
+    </main>
+    <script src="exercise-3.js"></script>
+    <!-- <script src="exercise-3-solution.js"></script> -->
+</body>
+</html>

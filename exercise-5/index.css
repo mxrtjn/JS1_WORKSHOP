@@ -1,0 +1,85 @@
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.nav {
+  background-color: var(--n100);
+  width: 200px;
+  height: 100%;
+  color: var(--white);
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-grow: 1;
+}
+
+img#foodfishImg {
+  max-height: 500px;
+  min-height: 300px;
+  min-width: 200px;
+  border: 1px dashed darkgray;
+}
+
+button#btnRandomFood {
+  background-color: #008cba;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--n300);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-color: var(--secondary);
+  border-radius: 100%;
+}
+
+.section {
+  background-color: var(--n200);
+  flex-grow: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  background-color: var(--n300);
+  height: 80px;
+  width: 100%;
+}
+.section > h2,
+.section > img,
+.section > button {
+  display: flex;
+}

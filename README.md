@@ -1,1 +1,3 @@
-# JS1_WORKSHOP
+# js1_workshop
+
+JS-I workshop
